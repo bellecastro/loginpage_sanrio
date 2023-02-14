@@ -1,0 +1,100 @@
+* { 
+  outline: 0; 
+  border: 0; 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+} 
+ 
+body { 
+  font-family: 'Press Start 2P', cursive;
+  background-color: #f3a4bb;
+
+} 
+ 
+.wrapper { 
+  width: 100%; 
+  max-width: 420px; 
+  margin: 0 auto; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+} 
+ 
+#logo { 
+  width: 600px; 
+} 
+
+ 
+#contact { 
+  display: flex; 
+  flex-direction: column; 
+  width: 100%; 
+} 
+ 
+.form-group { 
+  display: flex; 
+  flex-direction: column; 
+  width: 100%; 
+  color: #c43333;
+  margin-bottom: 1rem; 
+} 
+ 
+.form-group input, 
+.form-group textarea { 
+  border: 1px solid #777; 
+  padding: 1rem; 
+  border-radius: 8px; 
+  margin-top: 1rem; 
+  font-family: 'Press Start 2P', cursive;
+} 
+ 
+.form-group input:focus, 
+.form-group textarea:focus { 
+  border-color: #c43333; 
+} 
+ 
+#btn {
+  color: #fff;
+  width: 100%;
+  background-color: #c43333;
+  border: 1px solid #777; 
+  padding: 1rem; 
+  border-radius: 8px; 
+  margin-top: 1rem; 
+  text-align: center;
+}
+
+#btn button:hover {
+  cursor: pointer;
+  background-color: #c43333;
+}
+
+#btn2 {
+  color: #c43333;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #777; 
+  padding: 1rem; 
+  border-radius: 8px; 
+  margin-top: 1rem; 
+  text-align: center;
+}
+
+#btn2 button:hover {
+  cursor: pointer;
+  background-color: #c43333;
+}
+
+p{
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 0.75rem;
+}
+
+a{
+  color: #c43333;
+  font-size: 0.75rem;
+}
